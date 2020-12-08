@@ -4,40 +4,63 @@
   height : 50em;
   width : 100em;
   border: solid black;
-  align-items: flex-end; /*envoie la box contenant les boxs de persos en bas*/
+  /*align-items: flex-end; /*envoie la box contenant les boxs de persos en bas*/
   justify-content: center;
 }
 
 #caseJoueur{
-  height: 9em;
+  height: 13em;
   width: 90em;
+  margin-top: 35em;
   border: dashed red;
   display: flex;
   align-items: center;/*centre les box des joueurs*/
   justify-content: space-around;/*créer un espace entre les box des joueurs*/
+
 }
 
 .joueur{
-  height: 8em;
-  width : 20em;
+  display:flex;
+  height: 12em;
+  width : 21em;
   border: dashed black;
+  font-size: 1em;
+  color: #FFF;
+  background: linear-gradient(#F0AD48,#944E25);
+  opacity: 50%;
+  padding-left: 1em;
+}
+
+.valeur{
+  align-items: flex-end;
 }
 
 #caseMonstre{
   height: 9em;
-  width: 90em;
+  width: 55em;
   border: dashed green;
   display: flex;
-  align-items: flex-start;
+  position :absolute;
+  margin-top: 5em;
+  margin-left: 10em;
 
 }
 .monstre{
   background-image: url("img/dr1.png");
+  background-repeat: no-repeat;
   height: 8em;
   width : 20em;
   border: dashed blue;
 }
-#joueur1{}
+
+#joueur_nomJoueur{
+   font-style: italic;
+   font-weight: bold;
+   color: #000;
+}
+#joueur1{
+
+}
 #joueur1{}
 #joueur1{}
 #joueur1{}
