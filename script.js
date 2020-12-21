@@ -6,23 +6,37 @@
 var boutonAttaquerJ1 = document.getElementById("attaquerJ1");
 var boutonDefendreJ1 = document.getElementById("defendreJ1");
 var boutonSpecialJ1  = document.getElementById("specialJ1");
-var atqJoueur1 = 30;
-var defJoueur1 = 20;
+var pvVaelin  = 100;
+var pmVaelin  = 60;
+var atqVaelin = 30;
+var defVaelin = 20;
 
-//-------------------------JOUEUR 2-----------------------
+//-------------------------JOUEUR 2 // FRENTIS-----------------------
 var boutonAttaquerJ2 = document.getElementById("attaquerJ2");
 var boutonDefendreJ2 = document.getElementById("defendreJ2");
 var boutonSpecialJ2  = document.getElementById("specialJ2");
+var pvFrentis  = 90;
+var pmFrentis  = 90;
+var atqFrentis = 20;
+var defFrentis = 40;
 
-//-------------------------JOUEUR 3-----------------------
+//-------------------------JOUEUR 3 // LYRNA-----------------------
 var boutonAttaquerJ3 = document.getElementById("attaquerJ3");
 var boutonDefendreJ3 = document.getElementById("defendreJ3");
 var boutonSpecialJ3  = document.getElementById("specialJ3");
+var pvLyrna  = 110;
+var pmLyrna  = 50;
+var atqLyrna = 40;
+var defLyrna = 40;
 
-//-------------------------JOUEUR 4-----------------------
+//-------------------------JOUEUR 4 // CAENIS-----------------------
 var boutonAttaquerJ4 = document.getElementById("attaquerJ4");
 var boutonDefendreJ4 = document.getElementById("defendreJ4");
 var boutonSpecialJ4  = document.getElementById("specialJ4");
+var pvCaenis  = 150;
+var pmCaenis  = 60;
+var atqCaenis = 15;
+var defCaenis = 50;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -106,7 +120,7 @@ boutonSpecialJ4.onclick=caenisSpecial;
 //------------------------------VAELIN--------------------------//
 //////////////////////////////////////////////////////////////////
 function vaelinAttaquer(){
-monstre1PV.value-= atqJoueur1;
+monstre1PV.value-= atqVaelin;
 monstre1PV.innerHTML="PV : "+ monstre1PV.value;
 }
 function vaelinDefendre(){
