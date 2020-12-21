@@ -4,20 +4,27 @@
   height : 50em;
   width : 100em;
   border: solid black;
-  /*align-items: flex-end; /*envoie la box contenant les boxs de persos en bas*/
   justify-content: center;
 }
 
+#interface{
+  margin-left: 7em;
+  margin-top:30em;
+}
+#boutonPasser{
+ height:2em;
+ background: linear-gradient(#D68810,#F7C319);
+}
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*--------------------------------------------------------------------------------CSS DES JOUEURS-----------------------------------------------------------------------------------*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 #caseJoueur{
+  position: absolute;
   height: 13em;
   width: 90em;
   margin-top: 35em;
-  /*border: dashed red;*/
   display: flex;
   align-items: center;/*centre les box des joueurs*/
   justify-content: space-around;/*créer un espace entre les box des joueurs*/
@@ -32,7 +39,7 @@
   font-size: 1em;
   color: #FFF;
   background: linear-gradient(#F0AD48,#944E25);
-  opacity: 50%;
+  opacity: 100%;
   padding-left: 1em;
 }
 

@@ -134,7 +134,7 @@ function vaelinSpecial(){//spécial : Charme de Pan
 //------------------------------FRENTIS-------------------------//
 //////////////////////////////////////////////////////////////////
 function frentisAttaquer(){
-    monstre1PV.value-= atqJoueur1;
+    monstre1PV.value-= atqFrentis;
     monstre1PV.innerHTML="PV : "+ monstre1PV.value;
 }
 function frentisDefendre(){}
@@ -146,7 +146,7 @@ function frentisSpecial(){}
 //------------------------------LYRNA---------------------------//
 //////////////////////////////////////////////////////////////////
 function lyrnaAttaquer(){
-    monstre1PV.value-= atqJoueur1;
+    monstre1PV.value-= atqLyrna;
     monstre1PV.innerHTML="PV : "+ monstre1PV.value;
 }
 function lyrnaDefendre(){}
@@ -159,7 +159,7 @@ function lyrnaSpecial(){}
 //------------------------------CAENIS--------------------------//
 //////////////////////////////////////////////////////////////////
 function caenisAttaquer(){
-    monstre1PV.value-= atqJoueur1;
+    monstre1PV.value-= atqCaenis;
     monstre1PV.innerHTML="PV : "+ monstre1PV.value;
 }
 function caenisDefendre(){}
