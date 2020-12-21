@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*--------------------------------------------------------------------------------CSS DES JOUEURS-----------------------------------------------------------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 #caseJoueur{
   height: 13em;
   width: 90em;
@@ -35,35 +40,82 @@
   align-items: flex-end;
 }
 
-#caseMonstre{
-  height: 9em;
-  width: 55em;
-/*  border: dashed green;*/
-  display: flex;
-  position :absolute;
-  margin-top: 5em;
-  margin-left: 10em;
-
-}
-.monstre{
-  background-image: url("img/dr1.png");
-  background-repeat: no-repeat;
-  height: 9em;
-  width : 20em;
-  /*border: dashed blue;*/
-}
 
 #joueur_nomJoueur{
    font-style: italic;
    font-weight: bold;
    color: #000;
 }
-#joueur1{
+
+
+/*Placement des boutons d'actions*/
+.bouton{
+  margin-left: 5em;
+  margin-top: 1.5em;
+  width: 8em;
+  height: 3em;
+  background-color: black;
+  color:white;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*--------------------------------------------------------------------------------CSS DES MONSTRES----------------------------------------------------------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#monstre1{
+  background-image: url("img/dr1.gif");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 15em;
+  width : 20em;
 
 }
-#joueur1{}
-#joueur1{}
-#joueur1{}
-#monstre1{}
-#monstre2{}
-#monstre3{}
+#monstre2{
+  background-image: url("img/dr1.gif");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 15em;
+  width : 20em;
+
+}
+#monstre3{
+  background-image: url("img/dr1.gif");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 15em;
+  width : 20em;
+
+}
+
+#caseMonstre{
+  height: 9em;
+  width: 55em;
+  display: flex;
+  position :absolute;
+  margin-top: 5em;
+  margin-left: 10em;
+}
+#caracMonstre1{
+  margin-top: 10em;
+  padding-left: 2em;
+  color:white;
+  background:linear-gradient(#555,#777);
+  opacity: 0;
+}
+
+#caracMonstre2{
+  margin-top: 10em;
+  padding-left: 2em;
+  color:white;
+  background:linear-gradient(#555,#777);
+  opacity: 0;
+}
+
+#caracMonstre3{
+  margin-top: 10em;
+  padding-left: 2em;
+  color:white;
+  background:linear-gradient(#555,#777);
+  opacity: 0;
+}

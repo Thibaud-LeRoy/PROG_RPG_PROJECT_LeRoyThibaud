@@ -2,24 +2,70 @@
 <html>
 <head>
   <title>JeuDeKombaaa</title>
-  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- Start your code here -->
 <section id="zoneDeJeu">
-
 <section id="caseMonstre">
-  <div class="monstre" id="monstre1">M1</div>
-  <div class="monstre" id="monstre2">M2</div>
-  <div class="monstre" id="monstre3">M3</div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------MONSTRE 1------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <div id="monstre1">
+    <div id="caracMonstre1">
+        <p>Dragonnet Glacé<br></p>
+        <p id="monstre1PV"></p>
+    </div>
+  </div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------MONSTRE 2------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+  <div id="monstre2">
+    <div id="caracMonstre2">
+      <p>Dragonnet Glacé<br></p>
+      <p id="monstre2PV">PV : 80</p>
+    </div>
+  </div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------MONSTRE 3------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <div  id="monstre3">
+    <div id="caracMonstre3">
+      <p>Dragonnet Glacé<br></p>
+      <p id="monstre3PV">PV: 80</p>
+    </div>
+  </div>
 </section>
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------INTERFACE------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<div id="interface">
+  <button type="button" name="button" id="boutonPasser">PASSER</button>
+  <div>
+    <!--ESPACE DE COMMENTAIRES DE JEU-->
+  </div>
+</div>
+
+
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------JOUEUR 1-------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 <section id="caseJoueur">
   <div class="joueur" id="joueur1">
     <div class="carac_joueur">
-      <p class="text" id="joueur_nomJoueur">Nom</p>
+      <p class="text" id="joueur_nomJoueur">Vaelin</p>
       <p class="text">PV :</p>
       <p class="text">PM :</p>
       <p class="text">ATQ :</p>
@@ -28,22 +74,101 @@
     <div>
         <p><br></p>
         <p class="valeur "id="PVJ1">100</p>
-        <p class="valeur "id="PMJ1">100</p>
-        <p class="valeur" id="ATQJ1">120</p>
-        <p class="valeur" id="DEF1">80</p>
+        <p class="valeur "id="PMJ1">60</p>
+        <p class="valeur" id="ATQJ1">30</p>
+        <p class="valeur" id="DEF1">20</p>
+    </div>
+    <div>
+      <button type="button" name="button" id="attaquerJ1" class="bouton">Attaquer</button><br>
+      <button type="button" name="button" id="defendreJ1" class="bouton">Defendre</button><br>
+      <button type="button" name="button" id="specialJ1" class="bouton">Special</button><br>
+    </div>
+  </div>
+
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------JOUEUR 2-------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <div class="joueur" id="joueur2">
+    <div class="carac_joueur">
+      <p class="text" id="joueur_nomJoueur">Frentis</p>
+      <p class="text">PV :</p>
+      <p class="text">PM :</p>
+      <p class="text">ATQ :</p>
+      <p class="text">DEF :</p>
+    </div>
+    <div>
+        <p><br></p>
+        <p class="valeur "id="PVJ1">90</p>
+        <p class="valeur "id="PMJ1">90</p>
+        <p class="valeur" id="ATQJ1">20</p>
+        <p class="valeur" id="DEF1">40</p>
+    </div>
+    <div>
+      <button type="button" name="button" id="attaquerJ2" class="bouton">Attaquer</button><br>
+      <button type="button" name="button" id="defendreJ2" class="bouton">Defendre</button><br>
+      <button type="button" name="button" id="specialJ2" class="bouton">Special</button><br>
+    </div>
+  </div>
+
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------JOUEUR 3-------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <div class="joueur" id="joueur3">
+    <div class="carac_joueur">
+      <p class="text" id="joueur_nomJoueur">Lyrna</p>
+      <p class="text">PV :</p>
+      <p class="text">PM :</p>
+      <p class="text">ATQ :</p>
+      <p class="text">DEF :</p>
+    </div>
+    <div>
+        <p><br></p>
+        <p class="valeur "id="PVJ1">110</p>
+        <p class="valeur "id="PMJ1">50</p>
+        <p class="valeur" id="ATQJ1">40</p>
+        <p class="valeur" id="DEF1">40</p>
+    </div>
+    <div>
+      <button type="button" name="button" id="attaquerJ3" class="bouton">Attaquer</button><br>
+      <button type="button" name="button" id="defendreJ3" class="bouton">Defendre</button><br>
+      <button type="button" name="button" id="specialJ3" class="bouton">Special</button><br>
+    </div>
+  </div>
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!---------------------------------------------------------------------------JOUEUR 4-------------------------------------------------------------------------->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <div class="joueur" id="joueur4">
+    <div class="carac_joueur">
+      <p class="text" id="joueur_nomJoueur">Caenis</p>
+      <p class="text">PV :</p>
+      <p class="text">PM :</p>
+      <p class="text">ATQ :</p>
+      <p class="text">DEF :</p>
+    </div>
+    <div>
+        <p><br></p>
+        <p class="valeur "id="PVJ1">150</p>
+        <p class="valeur "id="PMJ1">60</p>
+        <p class="valeur" id="ATQJ1">15</p>
+        <p class="valeur" id="DEF1">50</p>
+    </div>
+    <div>
+      <button type="button" name="button" id="attaquerJ4" class="bouton">Attaquer</button><br>
+      <button type="button" name="button" id="defendreJ4" class="bouton">Defendre</button><br>
+      <button type="button" name="button" id="specialJ4" class="bouton">Special</button><br>
     </div>
   </div>
 
 
 
-
-  <div class="joueur" id="joueur2"></div>
-  <div class="joueur" id="joueur3"></div>
-  <div class="joueur" id="joueur4"></div>
 </section>
-
 </section>
-
-<!-- End your code here -->
 </body>
+<script src="script.js"></script>
 </html>
