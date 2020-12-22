@@ -225,9 +225,7 @@ function frentisDefendre(){
 		boutonSpecialJ2.opacity = "0.5";
 	}	
 }
-function frentisSpecial(){
-  function verifMana();
-}
+function frentisSpecial(){}
 
 
 
@@ -272,7 +270,7 @@ function caenisSpecial(){}
 
 
 function choisirMonstre(){
-  choixMonstre=0
+  choixMonstre=0;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
